@@ -468,15 +468,18 @@ header span i {
 }
 
 .slider .item-first {
-	background-image: url(../images/slider1.jpg);
+	background: url(../images/kampanya1.jpeg) no-repeat top center;
+	background-size: contain;
 }
 
 .slider .item-second {
-	background-image: url(../images/slider2.jpg);
+	background: url(../images/kampanya2.jpeg) no-repeat top right;
+	background-size: contain;
 }
 
 .slider .item-third {
-	background-image: url(../images/slider3.jpg);
+	background: url(../images/kampanya3.jpeg) no-repeat top center;
+	background-size: contain;
 }
 
 /*---------------------------------------
@@ -484,8 +487,8 @@ header span i {
   -----------------------------------------*/
 
 #about {
-	background: url("../images/about-bg.jpg") no-repeat top center;
-	background-size: cover;
+	background: url("../images/news-image1.jpg") no-repeat top right;
+	background-size: contain;
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
@@ -1078,4 +1081,19 @@ footer a:hover {
 	font-size: 35px;
 	box-shadow: 2px 2px 3px #999;
 	z-index: 100;
+}
+
+.fixed-top-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1050;
+	width: 100%;
+	padding-left: 20px;
+}
+
+.uniform-img {
+	height: 250px; /* Set to desired height */
+	width: 100%;
+	object-fit: contain;
 }
