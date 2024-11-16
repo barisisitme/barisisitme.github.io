@@ -468,17 +468,32 @@ header span i {
 }
 
 .slider .item-first {
-	background: url(../images/kampanya1.jpeg) no-repeat top center;
+	background: url(../images/kampanya5.jpeg) no-repeat top;
 	background-size: contain;
 }
 
 .slider .item-second {
-	background: url(../images/kampanya2.jpeg) no-repeat top right;
+	background: url(../images/kampanya2.jpeg) no-repeat top;
 	background-size: contain;
 }
 
 .slider .item-third {
-	background: url(../images/kampanya3.jpeg) no-repeat top center;
+	background: url(../images/kampanya3.jpeg) no-repeat top;
+	background-size: contain;
+}
+
+.slider .item-fourth {
+	background: url(../images/kampanya4.jpeg) no-repeat top;
+	background-size: contain;
+}
+
+.slider .item-fifth {
+	background: url(../images/kampanya1.jpeg) no-repeat top;
+	background-size: contain;
+}
+
+.slider .item-sixth {
+	background: url(../images/kampanya6.jpeg) no-repeat top;
 	background-size: contain;
 }
 
