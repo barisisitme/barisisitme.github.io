@@ -325,6 +325,7 @@ header span i {
 .navbar-default .navbar-brand {
 	color: #393939;
 	font-weight: 500;
+	padding: 0px;
 }
 
 .navbar-default .navbar-brand .fa {
@@ -506,6 +507,7 @@ header span i {
 	background-size: contain;
 	padding-top: 150px;
 	padding-bottom: 150px;
+	background-color: #f9f9f9;
 }
 
 .profile img,
