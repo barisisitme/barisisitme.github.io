@@ -161,7 +161,7 @@ a:focus {
 }
 
 .news-info {
-	padding: 30px;
+	padding: 5px;
 	text-align: left;
 }
 .news-info span {
@@ -169,7 +169,7 @@ a:focus {
 	letter-spacing: 0.5px;
 }
 .news-info h3 {
-	margin-top: 10px;
+	margin-top: 0px;
 	margin-bottom: 10px;
 }
 
@@ -1060,6 +1060,16 @@ footer a:hover {
 
 	.angle-up-btn {
 		bottom: 10em;
+	}
+
+	.slider .item {
+		background-position: inherit;
+		background-repeat: no-repeat;
+		background-attachment: local;
+		background-size: cover;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16 / 9;
 	}
 }
 
