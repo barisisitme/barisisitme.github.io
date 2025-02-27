@@ -1124,3 +1124,9 @@ footer a:hover {
 	width: 100%;
 	object-fit: contain;
 }
+
+.blog-img {
+	height: 50vh; /* Set to desired height */
+	width: 100%;
+	object-fit: contain;
+}
