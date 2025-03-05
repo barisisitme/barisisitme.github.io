@@ -18,7 +18,7 @@
 		loop: true,
 		autoplay: true,
 		dots: false,
-		autoplaySpeed: 3,
+		autoplayTimeout: 8000,
 	});
 
 	// PARALLAX EFFECT
@@ -39,7 +39,4 @@
 			event.preventDefault();
 		});
 	});
-
-	// WOW ANIMATION
-	new WOW({ mobile: false }).init();
 })(jQuery);
