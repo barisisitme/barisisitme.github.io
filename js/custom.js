@@ -18,6 +18,7 @@
 		loop: true,
 		autoplay: true,
 		dots: false,
+		autoplaySpeed: 3,
 	});
 
 	// PARALLAX EFFECT
