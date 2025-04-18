@@ -468,7 +468,7 @@ header span i {
 }
 
 .slider .item-zero {
-	background: url(../images/kampanya0.jpeg) no-repeat top;
+	/* background: url(../images/kampanya0.jpeg) no-repeat top; */
 	background-size: contain;
 }
 
