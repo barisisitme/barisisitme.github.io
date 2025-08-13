@@ -92,7 +92,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-	color: #7590af;
+	color: #d33223;
 	outline: none;
 }
 
@@ -115,7 +115,7 @@ a:focus {
 }
 
 .section-btn {
-	background: #7590af;
+	background: #d33223;
 	border: 0;
 	border-radius: 3px;
 	color: #ffffff;
@@ -305,7 +305,7 @@ header span.date-icon {
 }
 
 header span i {
-	color: #7590af;
+	color: #d33223;
 	margin-right: 5px;
 }
 
@@ -328,7 +328,7 @@ header span i {
 }
 
 .navbar-default .navbar-brand .fa {
-	color: #7590af;
+	color: #d33223;
 }
 
 .navbar-default .navbar-nav li.appointment-btn {
@@ -336,7 +336,7 @@ header span i {
 }
 
 .navbar-default .navbar-nav li.appointment-btn a {
-	background: #7590af;
+	background: #d33223;
 	border-radius: 3px;
 	color: #ffffff;
 	font-weight: 600;
@@ -616,7 +616,7 @@ header span i {
   -----------------------------------------*/
 
 #service {
-	background: #7590af;
+	background: #d33223;
 }
 
 #service h2,
@@ -636,7 +636,7 @@ header span i {
 	font-size: 50px;
 	margin-bottom: 10px;
 	background: #ffffff;
-	color: #7590af;
+	color: #d33223;
 	width: 120px;
 	height: 120px;
 	line-height: 120px;
@@ -821,7 +821,7 @@ header span i {
 }
 
 #appointment button#cf-submit {
-	background: #7590af;
+	background: #d33223;
 	color: #ffffff;
 	font-weight: 600;
 	height: 55px;
@@ -1153,7 +1153,7 @@ footer a:hover {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	background-color: #7590af;
+	background-color: #d33223;
 	/* Arka plan rengi */
 	color: white;
 	padding: 10px 0;
