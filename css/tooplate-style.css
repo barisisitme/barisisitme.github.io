@@ -69,7 +69,7 @@ h6 {
 
 p {
 	color: #757575;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: normal;
 	line-height: 24px;
 }
@@ -92,7 +92,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-	color: #d33223;
+	color: #0885f7;
 	outline: none;
 }
 
@@ -115,7 +115,7 @@ a:focus {
 }
 
 .section-btn {
-	background: #d33223;
+	background: #0885f7;
 	border: 0;
 	border-radius: 3px;
 	color: #ffffff;
@@ -305,7 +305,7 @@ header span.date-icon {
 }
 
 header span i {
-	color: #d33223;
+	color: #0885f7;
 	margin-right: 5px;
 }
 
@@ -328,7 +328,7 @@ header span i {
 }
 
 .navbar-default .navbar-brand .fa {
-	color: #d33223;
+	color: #0885f7;
 }
 
 .navbar-default .navbar-nav li.appointment-btn {
@@ -336,7 +336,7 @@ header span i {
 }
 
 .navbar-default .navbar-nav li.appointment-btn a {
-	background: #d33223;
+	background: #0885f7;
 	border-radius: 3px;
 	color: #ffffff;
 	font-weight: 600;
@@ -497,8 +497,18 @@ header span i {
 	background-size: contain;
 }
 
-.slider .item-sixth {
+.slider .item-six {
 	background: url(../images/kampanya6.jpeg) no-repeat top;
+	background-size: contain;
+}
+
+.slider .item-seven {
+	background: url(../images/kampanya7.jpeg) no-repeat top;
+	background-size: contain;
+}
+
+.slider .item-eigth {
+	background: url(../images/kampanya8.jpeg) no-repeat top;
 	background-size: contain;
 }
 
@@ -616,7 +626,7 @@ header span i {
   -----------------------------------------*/
 
 #service {
-	background: #d33223;
+	background: #0885f7;
 }
 
 #service h2,
@@ -636,7 +646,7 @@ header span i {
 	font-size: 50px;
 	margin-bottom: 10px;
 	background: #ffffff;
-	color: #d33223;
+	color: #0885f7;
 	width: 120px;
 	height: 120px;
 	line-height: 120px;
@@ -821,7 +831,7 @@ header span i {
 }
 
 #appointment button#cf-submit {
-	background: #d33223;
+	background: #0885f7;
 	color: #ffffff;
 	font-weight: 600;
 	height: 55px;
@@ -1153,7 +1163,7 @@ footer a:hover {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	background-color: #d33223;
+	background-color: #0885f7;
 	/* Arka plan rengi */
 	color: white;
 	padding: 10px 0;
@@ -1179,4 +1189,32 @@ footer a:hover {
 
 .footer-button :hover {
 	color: white;
+}
+
+#wa_btn-content {
+	box-sizing: border-box;
+	display: inline-flex;
+	padding: 10px 14px;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	cursor: pointer;
+	font-family: inherit, Roboto;
+}
+
+#wa_btn-content p,
+svg {
+	box-sizing: border-box;
+	display: inline-block;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
+
+#wa_btn-content p {
+	margin-left: 8px !important;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 20px;
 }

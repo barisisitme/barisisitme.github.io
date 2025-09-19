@@ -17,7 +17,7 @@
 		items: 1,
 		loop: true,
 		autoplay: true,
-		dots: false,
+		dots: true,
 		autoplayTimeout: 8000,
 	});
 
