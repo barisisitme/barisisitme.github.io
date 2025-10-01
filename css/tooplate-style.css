@@ -1220,8 +1220,8 @@ svg {
 }
 
 .img-box img {
-	width: 360px;
-	height: 360px;
+	width: 480px;
+	height: 480px;
 	object-fit: contain;
 	max-width: 100%;
 }

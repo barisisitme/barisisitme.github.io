@@ -63,17 +63,25 @@
 		<!-- MENU -->
 		<section class="navbar navbar-default navbar-static-top" role="navigation">
 			<div class="container">
-				<div class="navbar-header">
-					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<div class="navbar-header" style="display: flex; align-items: center; white-space: nowrap">
+					<a href="../../index.html" class="navbar-brand" style="padding: 0; margin: 0">
+						<img
+							src="../../images/logo4.jpg"
+							height="50px"
+							alt=""
+							style="max-height: 50px; display: block"
+						/>
+					</a>
+					<button
+						class="navbar-toggle"
+						data-toggle="collapse"
+						data-target=".navbar-collapse"
+						style="margin-right: 10px"
+					>
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 					</button>
-
-					<!-- lOGO TEXT HERE -->
-					<a href="../../index.html" class="navbar-brand">
-						<img src="../../images/logo4.jpg" height="50px" alt="" />
-					</a>
 				</div>
 
 				<!-- MENU LINKS -->
@@ -113,7 +121,7 @@
 						<!-- NEWS THUMB -->
 						<div class="news-detail-thumb">
 							<div class="news-image">
-								<img src="../../images/philips-bte.png" class="img-responsive blog-img" alt="" />
+								<img src="../../images/philips-bte-2.png" class="img-responsive" alt="" />
 							</div>
 							<h2>Philips BTE (Kulak Arkası) İşitme Cihazları</h2>
 							<p>
@@ -128,44 +136,56 @@
 								2 uygulaması ile kullanıcı, ses düzeyi ve programlar üzerinde tam kontrole sahip olur.
 							</p>
 
-							<h2>Philips HearLink miniBTE</h2>
-							<p>
-								Philips HearLink 40, gelişmiş ses teknolojilerini daha kompakt bir tasarımla sunan bir
-								modeldir. Günlük hayatta karşılaşılan rüzgar, kalabalık, trafik gibi karmaşık ses
-								ortamlarında bile net konuşma algısı sağlamayı hedefler.Yapay zekâ destekli ses
-								teknolojisi ve çevresel gürültü azaltma yetenekleri ile özellikle aktif yaşam süren
-								kullanıcılar için ideal bir çözümdür.
-							</p>
+							<!-- Row B: image on right (desktop), but still on top (mobile) -->
+							<div class="row">
+								<!-- image first in DOM so it stacks on top on mobile -->
+								<div class="col-xs-12 col-sm-5 col-sm-push-7 img-box">
+									<img src="../../images/philips-bte-4.png" class="img-responsive center-block" />
+								</div>
 
-							<h4>Teknik Özellikler ve Öne Çıkan Noktalar</h4>
-							<ul>
-								<li>
-									<strong>SoundMap 2 Plus & SoundProtect teknolojisi:</strong> Ortam seslerini gerçek
-									zamanlı analiz eder; konuşmaları öne çıkarırken rüzgar gibi ani sesleri baskılar.
-								</li>
+								<!-- text second in DOM, pulled left on desktop -->
+								<div class="col-xs-12 col-sm-7 col-sm-pull-5">
+									<h2>Philips HearLink miniBTE</h2>
+									<p>
+										Philips HearLink 40, gelişmiş ses teknolojilerini daha kompakt bir tasarımla
+										sunan bir modeldir. Günlük hayatta karşılaşılan rüzgar, kalabalık, trafik gibi
+										karmaşık ses ortamlarında bile net konuşma algısı sağlamayı hedefler.Yapay zekâ
+										destekli ses teknolojisi ve çevresel gürültü azaltma yetenekleri ile özellikle
+										aktif yaşam süren kullanıcılar için ideal bir çözümdür.
+									</p>
+									<h4>Teknik Özellikler ve Öne Çıkan Noktalar</h4>
+									<ul>
+										<li>
+											<strong>SoundMap 2 Plus & SoundProtect teknolojisi:</strong> Ortam seslerini
+											gerçek zamanlı analiz eder; konuşmaları öne çıkarırken rüzgar gibi ani
+											sesleri baskılar.
+										</li>
 
-								<li>
-									<strong>AI destekli ses işleme:</strong> Gürültülü ortamlarda bile konuşma ayrımını
-									kolaylaştırmak için yapay zekâdan yararlanır.
-								</li>
+										<li>
+											<strong>AI destekli ses işleme:</strong> Gürültülü ortamlarda bile konuşma
+											ayrımını kolaylaştırmak için yapay zekâdan yararlanır.
+										</li>
 
-								<li>
-									<strong>Bluetooth bağlantısı:</strong> iPhone ve ASHA uyumlu Android cihazlarla
-									doğrudan bağlantı kurabilir; telefon görüşmeleri ve medya sesleri cihazlara
-									aktarılır.
-								</li>
-								<li>
-									<strong>Gelişmiş kullanıcı deneyimi:</strong> HearLink uygulaması ile ses seviyesi
-									ayarı, program geçişi ve cihaz durumu yönetimi yapılabilir.
-								</li>
-								<li>
-									<strong>Pil seçenekleri:</strong> Hem 312 pilli hem de şarj edilebilir versiyonları
-									mevcuttur.
-								</li>
-								<li>
-									<strong>Dayanıklılık:</strong> IP68 standardında suya ve toza karşı dayanıklıdır.
-								</li>
-							</ul>
+										<li>
+											<strong>Bluetooth bağlantısı:</strong> iPhone ve ASHA uyumlu Android
+											cihazlarla doğrudan bağlantı kurabilir; telefon görüşmeleri ve medya sesleri
+											cihazlara aktarılır.
+										</li>
+										<li>
+											<strong>Gelişmiş kullanıcı deneyimi:</strong> HearLink uygulaması ile ses
+											seviyesi ayarı, program geçişi ve cihaz durumu yönetimi yapılabilir.
+										</li>
+										<li>
+											<strong>Pil seçenekleri:</strong> Hem 312 pilli hem de şarj edilebilir
+											versiyonları mevcuttur.
+										</li>
+										<li>
+											<strong>Dayanıklılık:</strong> IP68 standardında suya ve toza karşı
+											dayanıklıdır.
+										</li>
+									</ul>
+								</div>
+							</div>
 
 							<h3>Ürün Avantajları</h3>
 
@@ -219,6 +239,10 @@
 								Ayrıca kaybolmaları halinde işitme cihazlarınızı bulabilir, işitme uzmanınıza uzaktan
 								danışabilir ve işitme cihazı kullanımınızdaki ilerlemeyi izleyebilirsiniz.
 							</p>
+
+							<div class="news-image">
+								<img src="../../images/philips-bte-5.png" class="img-responsive" alt="" />
+							</div>
 
 							<h2>Philips BTE UP</h2>
 							<p>

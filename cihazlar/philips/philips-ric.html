@@ -63,17 +63,25 @@
 		<!-- MENU -->
 		<section class="navbar navbar-default navbar-static-top" role="navigation">
 			<div class="container">
-				<div class="navbar-header">
-					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<div class="navbar-header" style="display: flex; align-items: center; white-space: nowrap">
+					<a href="../../index.html" class="navbar-brand" style="padding: 0; margin: 0">
+						<img
+							src="../../images/logo4.jpg"
+							height="50px"
+							alt=""
+							style="max-height: 50px; display: block"
+						/>
+					</a>
+					<button
+						class="navbar-toggle"
+						data-toggle="collapse"
+						data-target=".navbar-collapse"
+						style="margin-right: 10px"
+					>
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 					</button>
-
-					<!-- lOGO TEXT HERE -->
-					<a href="../../index.html" class="navbar-brand">
-						<img src="../../images/logo4.jpg" height="50px" alt="" />
-					</a>
 				</div>
 
 				<!-- MENU LINKS -->
@@ -113,7 +121,7 @@
 						<!-- NEWS THUMB -->
 						<div class="news-detail-thumb">
 							<div class="news-image">
-								<img src="../../images/philips-ric.png" class="img-responsive blog-img" alt="" />
+								<img src="../../images/philips-ric-1.png" class="img-responsive" alt="" />
 							</div>
 							<h2>Philips HearLink RIC İşitme Cihazları Genel Bakış</h2>
 							<p>
@@ -135,35 +143,44 @@
 									karşı dayanıklı yapıları ile de her koşulda güvenilir performans gösterir
 								</strong>
 							</p>
-
-							<h2>Philips HearLink RIC</h2>
-							<p>
-								Philips HearLink 40, RIC işitme cihazıdır. SoundMap 2+ teknolojisi ve yapay zekâ
-								destekli ses işleme ile çevresel gürültü azaltma ve net konuşma algısını artırır.
-								Bluetooth bağlantısı ile telefon ve medya sesleri cihazla doğrudan aktarılır. Tinnitus
-								SoundSupport modu da mevcuttur.
-							</p>
-
-							<h4>Teknik Özellikler ve Öne Çıkan Noktalar</h4>
-							<ul>
-								<li>
-									<strong>SoundMap 2+ teknolojisi:</strong> Gelişmiş ortam sesi analizi ve yapay zekâ
-									destekli işleme.
-								</li>
-								<li>
-									<strong>Bluetooth bağlantısı:</strong> iOS ve ASHA uyumlu Android cihazlarla tam
-									bağlantı.
-								</li>
-								<li><strong>Pil seçenekleri:</strong> 312 pil ve şarjlı versiyonları bulunur.</li>
-								<li>
-									<strong>Tinnitus SoundSupport:</strong> Kulak çınlaması yaşayan kullanıcılar için
-									özel ses desteği.
-								</li>
-								<li><strong>Dayanıklılık:</strong> IP68 sertifikası.</li>
-								<li>
-									<strong>Mobil uygulama desteği:</strong> HearLink 2 uygulaması ile detaylı kontrol.
-								</li>
-							</ul>
+							<!-- Row A: image on left (desktop), image on top (mobile) -->
+							<div class="row">
+								<div class="col-xs-12 col-sm-5 img-box">
+									<img src="../../images/philips-ric-2.png" class="img-responsive center-block" />
+								</div>
+								<div class="col-xs-12 col-sm-7">
+									<h2>Philips HearLink RIC</h2>
+									<p>
+										Philips HearLink 40, RIC işitme cihazıdır. SoundMap 2+ teknolojisi ve yapay zekâ
+										destekli ses işleme ile çevresel gürültü azaltma ve net konuşma algısını
+										artırır. Bluetooth bağlantısı ile telefon ve medya sesleri cihazla doğrudan
+										aktarılır. Tinnitus SoundSupport modu da mevcuttur.
+									</p>
+									<h4>Teknik Özellikler ve Öne Çıkan Noktalar</h4>
+									<ul>
+										<li>
+											<strong>SoundMap 2+ teknolojisi:</strong> Gelişmiş ortam sesi analizi ve
+											yapay zekâ destekli işleme.
+										</li>
+										<li>
+											<strong>Bluetooth bağlantısı:</strong> iOS ve ASHA uyumlu Android cihazlarla
+											tam bağlantı.
+										</li>
+										<li>
+											<strong>Pil seçenekleri:</strong> 312 pil ve şarjlı versiyonları bulunur.
+										</li>
+										<li>
+											<strong>Tinnitus SoundSupport:</strong> Kulak çınlaması yaşayan kullanıcılar
+											için özel ses desteği.
+										</li>
+										<li><strong>Dayanıklılık:</strong> IP68 sertifikası.</li>
+										<li>
+											<strong>Mobil uygulama desteği:</strong> HearLink 2 uygulaması ile detaylı
+											kontrol.
+										</li>
+									</ul>
+								</div>
+							</div>
 
 							<h4>Ürün Avantajları</h4>
 							<p>
@@ -173,33 +190,43 @@
 								kullanılabilir.
 							</p>
 
-							<h4>Daha güçlü yapay zeka (AI) ses teknolojisi</h4>
-							<p>
-								İstenmeyen gürültüyü ortadan kaldırmak ve mükemmel ses kalitesi için benzersiz
-								teknolojimiz dahili Yapay Zekadan (AI) faydalanır. Ardından Konuşma Netleştirici
-								özelliği, etrafınız gürültüyle çevrili olsa bile konuşma seslerinin öne çıkmasına
-								yardımcı olur. Ayrıca SoundProtect rüzgar gürültüsünü, işitme cihazlarınızın
-								kullanımından kaynaklanan sesleri ve ani yüksek sesleri en aza indirir.
-							</p>
+							<!-- Row B: image on right (desktop), but still on top (mobile) -->
+							<div class="row">
+								<!-- image first in DOM so it stacks on top on mobile -->
+								<div class="col-xs-12 col-sm-5 col-sm-push-7 img-box">
+									<img src="../../images/philips-ric-3.png" class="img-responsive center-block" />
+								</div>
 
-							<h4>Şaşırtıcı derecede küçük ve gizli</h4>
-							<p>
-								Bu şık işitme cihazları çok hafiftir ve sadece 2,6 cm uzunluğunda ve 1 cm
-								genişliğindedir.
-							</p>
+								<!-- text second in DOM, pulled left on desktop -->
+								<div class="col-xs-12 col-sm-7 col-sm-pull-5">
+									<h4>Daha güçlü yapay zeka (AI) ses teknolojisi</h4>
+									<p>
+										İstenmeyen gürültüyü ortadan kaldırmak ve mükemmel ses kalitesi için benzersiz
+										teknolojimiz dahili Yapay Zekadan (AI) faydalanır. Ardından Konuşma Netleştirici
+										özelliği, etrafınız gürültüyle çevrili olsa bile konuşma seslerinin öne
+										çıkmasına yardımcı olur. Ayrıca SoundProtect rüzgar gürültüsünü, işitme
+										cihazlarınızın kullanımından kaynaklanan sesleri ve ani yüksek sesleri en aza
+										indirir.
+									</p>
+									<h4>Şaşırtıcı derecede küçük ve gizli</h4>
+									<p>
+										Bu şık işitme cihazları çok hafiftir ve sadece 2,6 cm uzunluğunda ve 1 cm
+										genişliğindedir.
+									</p>
+									<h4>Gürültü Azaltma teknolojisi</h4>
+									<p>
+										İki mikrofon, sesi temizlemek için SoundMap Gürültü Kontrolü teknolojisiyle
+										birlikte çalışarak gürültülü ortamlarda bile konuşma sesi verilerine iyi bir
+										şekilde erişebilmenizi sağlar.
+									</p>
 
-							<h4>Gürültü Azaltma teknolojisi</h4>
-							<p>
-								İki mikrofon, sesi temizlemek için SoundMap Gürültü Kontrolü teknolojisiyle birlikte
-								çalışarak gürültülü ortamlarda bile konuşma sesi verilerine iyi bir şekilde
-								erişebilmenizi sağlar.
-							</p>
-
-							<h4>Müzik ve ses akışı</h4>
-							<p>
-								Telefonunuza ve diğer cihazlara Bluetooth® teknolojisi ile bağlanarak, podcast, müzik,
-								TV sesi ve çok daha fazlasını işitme cihazlarınızdan dinleyin.
-							</p>
+									<h4>Müzik ve ses akışı</h4>
+									<p>
+										Telefonunuza ve diğer cihazlara Bluetooth® teknolojisi ile bağlanarak, podcast,
+										müzik, TV sesi ve çok daha fazlasını işitme cihazlarınızdan dinleyin.
+									</p>
+								</div>
+							</div>
 
 							<h4>Hands-free telefon görüşmeleri hayatınızı kolaylaştırır</h4>
 							<p>
