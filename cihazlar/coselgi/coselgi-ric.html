@@ -63,17 +63,25 @@
 		<!-- MENU -->
 		<section class="navbar navbar-default navbar-static-top" role="navigation">
 			<div class="container">
-				<div class="navbar-header">
-					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<div class="navbar-header" style="display: flex; align-items: center; white-space: nowrap">
+					<a href="../../index.html" class="navbar-brand" style="padding: 0; margin: 0">
+						<img
+							src="../../images/logo4.jpg"
+							height="50px"
+							alt=""
+							style="max-height: 50px; display: block"
+						/>
+					</a>
+					<button
+						class="navbar-toggle"
+						data-toggle="collapse"
+						data-target=".navbar-collapse"
+						style="margin-right: 10px"
+					>
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 					</button>
-
-					<!-- lOGO TEXT HERE -->
-					<a href="../../index.html" class="navbar-brand">
-						<img src="../../images/logo4.jpg" height="50px" alt="" />
-					</a>
 				</div>
 
 				<!-- MENU LINKS -->
@@ -113,9 +121,9 @@
 						<!-- NEWS THUMB -->
 						<div class="news-detail-thumb">
 							<div class="news-image">
-								<img src="../../images/coselgi-1.webp" class="img-responsive blog-img" alt="" />
+								<img src="../../images/coselgi-ric-1.png" class="img-responsive" alt="" />
 							</div>
-							<h3>HOPARLÖRLÜ KANAL İÇİNDE İŞİTME CİHAZLARI (RIC)</h3>
+							<h2>HOPARLÖRLÜ KANAL İÇİNDE İŞİTME CİHAZLARI (RIC)</h2>
 							<p>
 								RIC (Receiver-in-Canal) işitme cihazları, hoparlörün (receiver) kulak kanalında
 								konumlandırıldığı ve cihazın ana gövdesinin kulağın arkasında bulunduğu bir işitme
@@ -125,38 +133,52 @@
 								ince bir kablo sayesinde ses kulak içine iletilir. Bu tasarım, cihazın daha küçük ve
 								daha estetik görünmesini sağlar.
 							</p>
+							<!-- Row A: image on left (desktop), image on top (mobile) -->
+							<div class="row">
+								<div class="col-xs-12 col-sm-5 img-box">
+									<img src="../../images/coselgi-ric-2.png" class="img-responsive center-block" />
+								</div>
+								<div class="col-xs-12 col-sm-7">
+									<h2>RIC İşitme Cihazlarının Avantajları</h2>
+									<h4>Doğal Ses Kalitesi</h4>
+									<p>
+										RIC işitme cihazları, sunduğu doğal ses kalitesiyle ön plana çıkar. Hoparlör
+										doğrudan kulak kanalına yerleştirildiği için yankılanma veya boğuk ses algısı
+										minimum seviyeye iner. Özellikle yüksek frekanslı sesleri daha net duymayı
+										sağlayarak konuşmaların daha anlaşılır olmasına yardımcı olur.
+									</p>
+									<h4>Konforlu ve Hafif Tasarım</h4>
+									<p>
+										Tasarımı sayesinde oldukça hafif ve konforludur. Açık işitme (open-fit) özelliği
+										sayesinde kulak tamamen tıkanmaz ve kullanıcının daha doğal bir işitme deneyimi
+										yaşamasına olanak tanır. Gün boyu rahat bir kullanım sunması, kullanıcılar için
+										büyük bir avantajdır.
+									</p>
+								</div>
+							</div>
+							<!-- Row B: image on right (desktop), but still on top (mobile) -->
+							<div class="row">
+								<!-- image first in DOM so it stacks on top on mobile -->
+								<div class="col-xs-12 col-sm-5 col-sm-push-7 img-box">
+									<img src="../../images/coselgi-ric-3.png" class="img-responsive center-block" />
+								</div>
 
-							<h4>RIC İşitme Cihazlarının Avantajları</h4>
-
-							<h4>Doğal Ses Kalitesi</h4>
-							<p>
-								RIC işitme cihazları, sunduğu doğal ses kalitesiyle ön plana çıkar. Hoparlör doğrudan
-								kulak kanalına yerleştirildiği için yankılanma veya boğuk ses algısı minimum seviyeye
-								iner. Özellikle yüksek frekanslı sesleri daha net duymayı sağlayarak konuşmaların daha
-								anlaşılır olmasına yardımcı olur.
-							</p>
-
-							<h4>Konforlu ve Hafif Tasarım</h4>
-							<p>
-								Tasarımı sayesinde oldukça hafif ve konforludur. Açık işitme (open-fit) özelliği
-								sayesinde kulak tamamen tıkanmaz ve kullanıcının daha doğal bir işitme deneyimi
-								yaşamasına olanak tanır. Gün boyu rahat bir kullanım sunması, kullanıcılar için büyük
-								bir avantajdır.
-							</p>
-
-							<h4>Teknolojik Özellikler</h4>
-							<p>
-								Teknolojik açıdan da oldukça gelişmiş olan RİC modelleri, Bluetooth bağlantısı, akıllı
-								telefon entegrasyonu, yönlü mikrofonlar ve gürültü azaltma gibi pek çok özellikle
-								donatılmıştır. Bu sayede hem günlük yaşamda hem de iş hayatında daha rahat bir işitme
-								deneyimi sunar.
-							</p>
-
-							<h4>Kolay Bakım</h4>
-							<p>
-								Ayrıca, hoparlör harici bir parça olduğu için arıza durumunda tüm cihazı değiştirmeye
-								gerek kalmadan yalnızca hoparlör kablosu değiştirilebilir.
-							</p>
+								<!-- text second in DOM, pulled left on desktop -->
+								<div class="col-xs-12 col-sm-7 col-sm-pull-5">
+									<h4>Teknolojik Özellikler</h4>
+									<p>
+										Teknolojik açıdan da oldukça gelişmiş olan RİC modelleri, Bluetooth bağlantısı,
+										akıllı telefon entegrasyonu, yönlü mikrofonlar ve gürültü azaltma gibi pek çok
+										özellikle donatılmıştır. Bu sayede hem günlük yaşamda hem de iş hayatında daha
+										rahat bir işitme deneyimi sunar.
+									</p>
+									<h4>Kolay Bakım</h4>
+									<p>
+										Ayrıca, hoparlör harici bir parça olduğu için arıza durumunda tüm cihazı
+										değiştirmeye gerek kalmadan yalnızca hoparlör kablosu değiştirilebilir.
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
