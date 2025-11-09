@@ -19,6 +19,14 @@
 		autoplay: true,
 		dots: true,
 		autoplayTimeout: 8000,
+		responsive: {
+			0: {
+				dots: false
+			},
+			768: {
+				dots: true
+			}
+		}
 	});
 
 	// PARALLAX EFFECT
