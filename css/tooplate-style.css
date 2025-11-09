@@ -1087,6 +1087,11 @@ footer a:hover {
 		bottom: 10em;
 	}
 
+	#about {
+		padding-top: 0;
+		margin-top: -50px;
+	}
+
 	.slider .item {
 		background-position: inherit;
 		background-repeat: no-repeat;
